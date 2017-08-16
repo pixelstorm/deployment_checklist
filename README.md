@@ -1,28 +1,50 @@
 # PRE DEPLOYMENT
-- [ ] Find out when the most off peak time to upload 
+- [ ] When is the most off peak time to upload?
+- [ ] SSL certificates enabled on the production server?
+- [ ] 301 REDIRECTS list.
+- [ ] What is the official site email address, who will be the administrator?
+- [ ] What is client's current email management service? Do we need to config the DNS?
 
 **ACCESS DETAILS**
-- [ ] Get ftp / ssh login details to server 
-- [ ] Get access to domain register if need to change a records or nameservers 
+- [ ] FTP / SSH login details to server 
+- [ ] DOMAIN REGISTRER - change A RECORDS or NAMESERVERS 
 
 **BACKUPS**
-- [ ] Get a backup of the current site files and database 
+- [ ] BACKUP of the current site files and database 
 
 # POST DEPLOYMENT
 **Check all files uploaded worked**
-- [ ] Check console log for errors 
-- [ ] Do a view source on all main pages and ensure there is no references to staging or local dev sites 
-- [ ] Check site has a Favicon
-- [ ] Check 404/error page is working
+- [ ] CONSOLE LOG for errors 
+- [ ] SCREAMING FROG for errors in the response codes section 
+- [ ] VIEW SOURCE on all main pages and ensure there is no references to staging or local dev sites 
+- [ ] Production only files uploaded. IE: no gruntfiles or node_modules. 
+- [ ] FAVICON working
+- [ ] 404/ERROR page working
+
+
+**SEARCH ENGINES**
+- [ ] GOOGLE ANALYTICS working
+- [ ] CRAWLABLE by google is working 
+- [ ] 301 REDIRECTS inplace.
+- [ ] New SITEMAP has been generated and submitted to google (using yoast).
+- [ ] All website traffic is directed to either the www or non-www domain (canonical issue)
 
 **PLUGINS**
-- [ ] Ensure they all have a license that is owned by the client so they can be upgraded 
+- [ ] LICENSE KEYS owned by the client for all plugins 
+
+
+**SECURITY**
+- [ ] Wordfence is installed and sending notifications to the official site administrator 
+
+**WP_ADMIN SETTINGS**
+- [ ] Email Address set to the official site administrator 
+
 
 **EMAILS**
-- [ ] Ensure emails are sending from the website send a test to yourself and to the client using the contact form
+- [ ] SENDING from the website is working. Test to yourself and to the client using the contact form
 
 **ECOMMERCE**
-- [ ] Test a transaction in a non sandbox enviroment 
+- [ ] TRANSACTIONS are working in a non sandbox enviroment 
 
 **USER ACCESS**
-- [ ] Create a username for the client 
+- [ ] USERNAME for the client 
