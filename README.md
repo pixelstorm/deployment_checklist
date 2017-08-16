@@ -10,10 +10,10 @@
 - [ ] DOMAIN REGISTRER - change A RECORDS or NAMESERVERS 
 
 **BACKUPS**
-- [ ] BACKUP of the current site files and database 
+- [ ] BACKUP the current site files and database 
 
 # POST DEPLOYMENT
-**Check all files uploaded worked**
+**Check the uploaded worked and site is error free**
 - [ ] CONSOLE LOG for errors 
 - [ ] SCREAMING FROG for errors in the response codes section 
 - [ ] VIEW SOURCE on all main pages and ensure there is no references to staging or local dev sites 
@@ -21,6 +21,8 @@
 - [ ] FAVICON working
 - [ ] 404/ERROR page working
 
+**COMPRESSION**
+- [ ] Css and javascript files have been compressed for production 
 
 **SEARCH ENGINES**
 - [ ] GOOGLE ANALYTICS working
@@ -29,16 +31,11 @@
 - [ ] New SITEMAP has been generated and submitted to google (using yoast).
 - [ ] All website traffic is directed to either the www or non-www domain (canonical issue)
 
-**PLUGINS**
-- [ ] LICENSE KEYS owned by the client for all plugins 
-
-
 **SECURITY**
 - [ ] Wordfence is installed and sending notifications to the official site administrator 
 
 **WP_ADMIN SETTINGS**
 - [ ] Email Address set to the official site administrator 
-
 
 **EMAILS**
 - [ ] SENDING from the website is working. Test to yourself and to the client using the contact form
@@ -48,3 +45,6 @@
 
 **USER ACCESS**
 - [ ] USERNAME for the client 
+
+**PLUGINS**
+- [ ] LICENSE KEYS owned by the client for all plugins 
