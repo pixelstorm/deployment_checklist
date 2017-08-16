@@ -1,4 +1,4 @@
-#PRE DEPLOYMENT
+# PRE DEPLOYMENT
 - [ ] Find out when the most off peak time to upload 
 
 **ACCESS DETAILS**
@@ -8,7 +8,7 @@
 **BACKUPS**
 - [ ] Get a backup of the current site files and database 
 
-#POST DEPLOYMENT
+# POST DEPLOYMENT
 **Check all files uploaded worked**
 - [ ] Check console log for errors 
 - [ ] Do a view source on all main pages and ensure there is no references to staging or local dev sites 
